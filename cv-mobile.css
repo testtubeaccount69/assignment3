@@ -1,0 +1,41 @@
+@media (max-width: 767px) {
+  * {
+    display: block;
+  }
+
+  .mobilegoal {
+    padding: 10%;
+    margin: 10%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .mobilescope {
+    padding: 10%;
+    margin: 10%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobilemember {
+    padding: 10%;
+    margin: 10%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobiletimeline {
+    padding: 10%;
+    margin: 10%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobileprimary {
+    padding: 10%;
+    margin: 10%;
+    width: 100%;
+    text-align: center;
+  }
+}

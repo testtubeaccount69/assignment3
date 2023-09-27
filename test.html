@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    .cha {
+      display: flex;
+      border: 1px solid black;
+      height: 400px;
+      justify-content: space-around;
+    }
+
+    .cot {
+      border: 1px solid green;
+      width: 33%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cha">
+    <div class="cot"></div>
+    <div class="cot"></div>
+    <div class="cot"></div>
+  </div>
+  <div class="cha">
+    <div class="cot"></div>
+    <div class="cot"></div>
+    <div class="cot"></div>
+  </div>
+  <div>
+    <label for="syndra">Syndra</label>
+    <input type="radio" id="radio" name="Syndra" value="Syndra">
+    <input type="radio" id="radio" name="Syndra2" value="Syndra3">
+    <input type="radio" id="radio" name="Syndra3" value="Syndra3" checked>
+    <label for="syndra">Syndra</label>
+  </div>
+  <div>
+    <select id="syndra" name="syndra">
+      <option value="syndra">Syndra</option>
+      <option value="dark spheres">Dark Spheres</option>
+      <option value="force of will">Force of Will</option>
+      <option value="Scatter the Weak">Scatter the Weak</option>
+      <option value="Unleashed Power">Unleashed Power</option>
+    </select>
+    <input type="submit" value="submit">
+  </div>
+  <div>
+    <form action="https://www.w3schools.com/action_page.php">
+      <input type="checkbox" id="checkbox" name="syndra" value="syndra">
+      <label for="syndra">Syndra</label>
+      <input type="checkbox" id="checkbox" name="syndra" value="syndra">
+      <label for="syndra">Syndra</label>
+      <input type="checkbox" id="checkbox" name="syndra" value="syndra" checked>
+      <label for="syndra">Syndra</label>
+      <input type="submit" value="submit">
+    </form>
+  </div>
+
+</html>

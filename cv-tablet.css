@@ -1,0 +1,34 @@
+@media (min-width: 767px) and (max-width: 1024px) {
+  * {
+    display: block;
+  }
+
+  .mobilegoal {
+    padding: 10%;
+    margin: 10%;
+  }
+
+  .mobilescope {
+    padding: 10%;
+    margin: 10%;
+  }
+
+  .mobilemember {
+    padding: 10%;
+    margin: 10%;
+  }
+
+  .mobiletimeline {
+    padding: 10%;
+    margin: 10%;
+  }
+
+  .mobileprimary {
+    padding: 10%;
+    margin: 10%;
+  }
+
+  i {
+    float: left;
+  }
+}
